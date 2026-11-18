@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
+
+  <!--
+    Motivo: MOTIVO_DE_LA_SUPRESION
+    Evidencia: EVIDENCIA_REVISADA
+    Revisado por: TU_USUARIO_GITHUB
+    Fecha de revisión: FECHA_REVISION
+  -->
+  <suppress until="FECHA_VENCIMIENTO">
+    <notes><![CDATA[
+      MOTIVO_DE_LA_SUPRESION
+    ]]></notes>
+    <packageUrl regex="true">^pkg:maven/GRUPO_ESCAPADO/ARTEFACTO@.*$</packageUrl>
+    <vulnerabilityName>CVE_A_SUPRIMIR</vulnerabilityName>
+  </suppress>
+
+</suppressions>
